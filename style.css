@@ -1,0 +1,185 @@
+body {
+    background:linear-gradient(rgb(0 0 0 / 92%),rgb(151 53 206 / 59%)),url(Img/Fon2.jpg); 
+    background-attachment: fixed;
+    background-size: cover;
+   
+    }
+   /* 
+   ====================================================================================================================================*/
+   
+    
+     
+   
+   
+   .container {
+       position: absolute;
+       top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       margin: auto;
+       width: 360px;
+       height: 450px;
+       border-radius: 5px;
+       border: 2px solid #a7104c;
+       box-shadow: 1px 1px 50px #a44068;;
+       display: flex;
+   }
+   
+   
+       
+   
+   
+   
+   .box {                                                               /*Форма регистрации*/
+       width: 360px;
+       height: 300px;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-55%);
+       background-attachment:fixed;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       text-align: center;
+       border-radius: 25px;
+   }
+   
+   
+   
+   .box input[type = "text"],.box input[type = "password"] {            /*Кнопки Емейла и пароля */
+       width: 50%;
+       background: none;
+       display: block;
+       margin: 20px auto;
+       padding: 10px;
+       text-align: center;
+       border: 3px solid #12CBC4;
+       outline: none;
+       color: rgb(255, 255, 255);
+       transition: 0.25s;
+       border-radius: 25px;
+   }
+     
+   
+   
+   .box input[type = "text"]:focus,.box input[type = "password"]:focus { /*Эффекты для кнопки емейла и пароля*/
+       
+       width: 65%;
+       display: flex;
+       margin: 20px auto;
+       padding: 10px;
+       text-align: center;
+       border: 3px solid #cc155e;
+       outline: none;
+       color: rgb(255, 255, 255);
+       transition: 0.25s;
+       border-radius: none;
+   }
+   
+   ::-webkit-input-placeholder {color:#12CBC4;}                       /*Изменение цвета Емейла и пароля*/
+   
+   
+   
+   .box input[type = "submit"] {                                        /*Кнопка войти*/
+       background: none;
+       width: 20%;
+       height: auto;
+       display: block;
+       margin: 20px auto;
+       padding: 10px;
+       text-align: center;
+       border: 3px solid #12CBC4;
+       outline: none;
+       transition: 0.25s;
+       cursor: pointer;
+       border-radius: 25px;
+       color: #12CBC4;
+   }
+   
+   
+   .box input[type = "submit"]:hover {                              /* Эффекты для кнопки войти */
+       
+     
+       display: block;
+       margin: 20px auto;
+       padding: 10px;
+       text-align: center;
+       border: 3px solid #12CBC4;
+       outline: none;
+       color: rgb(255, 255, 255);
+       transition: 0.25s;
+       border-radius: 25px;
+       background-color:  #a44068;
+   }
+   /* Часики
+   ================================================================================================================================*/
+   
+   
+   .clock {
+   
+       padding: 10px;
+       border: 3px solid #12CBC4;
+       border-radius: 15px;
+       position: absolute;
+       top: 75%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       font-family: 'Karantina', cursive;
+       color: #02fff5;
+       font-size: 18px;
+    
+      
+   }
+   
+   
+   
+   /* Предупрежение про браузер
+   ================================================================================================================================*/
+   
+   
+   
+   .info  {                    
+       color: red;
+       background-color: rgb(255, 255, 255);
+       text-align: center;
+       font-size: 16px;
+       cursor: default;
+   }
+
+
+   .non_info {
+    background: rgba(205, 214, 219, 0);
+    color: rgba(205, 214, 219, 0);
+    text-align: center;
+    cursor:default;
+   }
+    
+    
+    
+    
+    p {
+            /**
+             * Для эксплорера
+             */
+            -ms-user-select: none;
+
+            /**
+             * Для мозилы
+             */
+            -moz-user-select: none;
+
+            /**
+             * Для конкверора
+             */
+            -khtml-user-select: none;
+
+            /**
+             * Для Сафари и Хрома
+             */
+            -webkit-user-select: none;
+        }
+
+   
+   
